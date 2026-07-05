@@ -56,16 +56,7 @@ Utiliza *#qr* ó *#code*
 ┌──「 📥 *DESCARGAS* 」
 │ ∘ #facebook <url>
 │ ∘ #play <texto>
-│ ∘ #tiktok <url>
-│ ∘ #video <texto>
-│ ∘ #audiodoc
-│ ∘ #videodoc
-│ ∘ #ig <url>
-│ ∘ #mediafire <url>
-│ ∘ #spotify <url>
-│ ∘ #anime
-│ ∘ #animedl
-│ ∘ #dl
+│ ∘ #spotify
 └──────────────
 
 ┌──「 🔍 *BÚSQUEDAS* 」
