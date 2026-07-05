@@ -33,7 +33,7 @@ m.reply(`⚠︎ Se ha producido un problema.\n> Usa *${usedPrefix}report* para i
 }}
 
 handler.help = ["spotify"]
-handler.tags = ["download"]
+handler.tags = ["descargas"]
 handler.command = ["spotify", "splay"]
 
 export default handler
