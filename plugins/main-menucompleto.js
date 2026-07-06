@@ -51,7 +51,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 }
 
   let infoUser = `
-🍃 *_Hola, ${nombre} Soy Nagi-BotV1._*
+🍃 *_Hola, ${nombre} ⏤͟͟͞͞𝐅𝐀𝐁𝐈𝐀𝐍-𝐁𝐎𝐓 𖤐._*
 
 *_🌿 𝙄𝙉𝙁𝙊 𝙐𝙎𝙐𝘼𝙍𝙄𝙊_*
 > *_Usuario:_* *${nombre}*
@@ -64,7 +64,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 > *_Usuarios:_* *${totalreg}*
 > *_Plataforma:_* *Ubuntu*
 
-*_🍃 L I S T A  -  M E N U_*
+*_🍃 𝐅 𝐀 𝐁 𝐈 𝐀 𝐍  -  𝐌 𝐄 𝐍 𝐔_*
 `.trim();
 
   let commands = Object.values(global.plugins).filter(v => v.help && v.tags && v.command).map(v => ({
@@ -91,7 +91,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 
   await conn.sendMessage(m.chat, {
     document: fs.readFileSync('./package.json'),
-    fileName: '🍃 𝐍𝐚𝐠𝐢𝐁𝐨𝐭-𝐈𝐀 | 𝐌𝐞𝐧𝐮 🌿',
+    fileName: '🍃 𝐅𝐀𝐁𝐈𝐀𝐍-𝐈𝐀 | 𝐌𝐞𝐧𝐮 🌿',
     mimetype: 'application/pdf',
     caption: finalMenu,
     contextInfo: {
@@ -99,10 +99,10 @@ let handler = async (m, { conn, usedPrefix}) => {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363405641626756@newsletter',
-        newsletterName: '『 ☆ 𝑵𝒂𝒈𝒊𝑩𝒐𝒕-𝑰𝑨 |  𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 ❀ 』'
+        newsletterName: '『 ☆ 𝐅𝐚𝐛𝐢𝐚𝐧𝑩𝒐𝒕-𝑰𝑨 |  𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 ❀ 』'
 },
       externalAdReply: {
-        title: '© ᴍᴀᴅᴇ ʙʏ ᴅᴇᴠ-ꜰᴇᴅᴇxʏᴢ 🍂',
+        title: '© ᴍᴀᴅᴇ ʙʏ 𝙵𝙰𝙱𝙸𝙰𝙽-𝚇𝚈𝚉 🍂',
         body: `🍃 Hola ${nombre}, ${saludo}.`,
         thumbnailUrl: imagen,
         mediaType: 1,
