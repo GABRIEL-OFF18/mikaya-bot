@@ -68,17 +68,17 @@ handler.all = async function (m) {
         }
     }
 
-    global.creador = 'wa.me/240222646582'
+    global.creador = 'FABIAN-MD'
     global.ofcbot = `${conn.user.jid.split('@')[0]}`
-    global.namechannel = 'waguri bot'
-    global.namechannel2 = 'waguri bot'
-    global.namegrupo = 'waguri bot'
-    global.namecomu = 'waguri bot'
+    global.namechannel = 'Fabian bot'
+    global.namechannel2 = 'Fabian bot'
+    global.namegrupo = 'Fabian bot'
+    global.namecomu = 'Fabiam bot'
     global.listo = '*Aquí tienes ฅ^•ﻌ•^ฅ*'
     global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://raw.githubusercontent.com/danielalejandrobasado-glitch/Yotsuba-MD-Premium/main/uploads/d4abc3ed38259119.jpg')
 
-    global.canalIdM = ["120363420979328566@newsletter", "120363420979328566@newsletter"]
-    global.canalNombreM = ["waguri bot"]
+    global.canalIdM = ["12036342023101462@newsletter", "12036342023101462@newsletter"]
+    global.canalNombreM = ["Fabian bot"]
     global.channelRD = await getRandomChannel()
 
     global.d = new Date(Date.now() + 3600000)
