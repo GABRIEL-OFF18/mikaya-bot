@@ -89,7 +89,7 @@ let handler = async (m, { conn, usedPrefix}) => {
   await m.react('🍃');
 
   await conn.sendMessage(m.chat, {
-    document: fs.readFileSync('./package.json'),
+    document: fs.readFileSync('./WhatsApp s.js'),
     fileName: '🍃 𝐅𝐀𝐁𝐈𝐀𝐍-𝐈𝐀 | 𝐌𝐞𝐧𝐮 🌿',
     mimetype: 'application/pdf',
     caption: finalMenu,
