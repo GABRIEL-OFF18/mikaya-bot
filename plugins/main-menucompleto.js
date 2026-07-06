@@ -122,6 +122,6 @@ let handler = async (m, { conn, usedPrefix}) => {
 
 handler.help = ['menucompleto'];
 handler.tags = ['main'];
-handler.command = ['menucompleto'];
+handler.command = ['menu'];
 
 export default handler;
