@@ -27,7 +27,6 @@ let handler = async (m, { conn, usedPrefix }) => {
     nable: 'ᴍᴇɴᴜ ᴏɴ / ᴏꜰꜰ',
     nsfw: 'ᴍᴇɴᴜ ɴꜱꜰᴡ',
     sticker: 'ᴍᴇɴᴜ ꜱᴛɪᴄᴋᴇʀ',
-    tools: 'ᴍᴇɴᴜ ᴛᴏᴏʟꜱ',
   };
 
   let header = '\n*╭─「 %category 」─╮*';
