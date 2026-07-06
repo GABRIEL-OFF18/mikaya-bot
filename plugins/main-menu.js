@@ -96,7 +96,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363405641626756@newsletter',
+        newsletterJid: '12036342023101462@newsletter',
         newsletterName: '『 ☆ 𝐅𝐚𝐛𝐢𝐚𝐧𝑩𝒐𝒕-𝑰𝑨 |  𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 ❀ 』'
       },
       externalAdReply: {
