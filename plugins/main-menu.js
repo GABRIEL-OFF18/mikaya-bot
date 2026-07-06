@@ -17,7 +17,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 }
 
   const infoUser = `
-🍃 *_Hola, ${nombre}. Soy Nagi-BotV1._*
+🍃 *_Hola, ${nombre}. ⏤͟͟͞͞𝐅𝐀𝐁𝐈𝐀𝐍-𝐁𝐎𝐓 ︴𝐀𝐈._*
 
 🌿 *_INFO USUARIO_*
 > *_Usuario:_* ${nombre}
@@ -33,7 +33,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 
   const imagenPrincipal = 'https://cdn.yupra.my.id/yp/vtyd7h3h.jpg';
   const imagenMiniatura = 'https://cdn.yupra.my.id/yp/g88ak3pd.jpg';
-  const after = '© ᴍᴀᴅᴇ ʙʏ ᴅᴇᴠ-ꜰᴇᴅᴇxʏᴢ';
+  const after = '© ᴍᴀᴅᴇ ʙʏ ᴅᴇᴠ-𝙵𝙰𝙱𝙸𝙰𝙽';
 
   await m.react('⚽');
 
@@ -43,7 +43,7 @@ let handler = async (m, { conn, usedPrefix}) => {
     contextInfo: {
       externalAdReply: {
         title: after,
-        body: '⌬ 🄽🄰🄶🄸🄱🄾🅃‐🄼🄳 🍃',
+        body: '⌬ 𝐅𝐀𝐁𝐈𝐀𝐍‐𝐌𝐃 🍃',
         thumbnailUrl: imagenMiniatura, 
         mediaType: 1,
         renderLargerThumbnail: true,
