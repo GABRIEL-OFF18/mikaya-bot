@@ -31,8 +31,7 @@ let handler = async (m, { conn, usedPrefix}) => {
 > *_Plataforma:_* *Ubuntu*
 `.trim();
 
-  const imagenPrincipal = 'https://cdn.yupra.my.id/yp/vtyd7h3h.jpg';
-  const imagenMiniatura = 'https://cdn.yupra.my.id/yp/g88ak3pd.jpg';
+  const imagenPrincipal = 'https://raw.githubusercontent.com/Frimemoloxz/DataBase/main/1783298003162.jpeg';
   const after = '© ᴍᴀᴅᴇ ʙʏ ᴅᴇᴠ-𝙵𝙰𝙱𝙸𝙰𝙽';
 
   await m.react('⚽');
@@ -44,7 +43,6 @@ let handler = async (m, { conn, usedPrefix}) => {
       externalAdReply: {
         title: after,
         body: '⌬ 𝐅𝐀𝐁𝐈𝐀𝐍‐𝐌𝐃 🍃',
-        thumbnailUrl: imagenMiniatura, 
         mediaType: 1,
         renderLargerThumbnail: true,
         sourceUrl: 'https://github.com/Dev-fedexyz13'
