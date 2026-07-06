@@ -26,7 +26,6 @@ let handler = async (m, { conn, usedPrefix}) => {
     main: 'ᴍᴇɴᴜ ᴍᴀɪɴ',
     nable: 'ᴍᴇɴᴜ ᴏɴ / ᴏꜰꜰ',
     nsfw: 'ᴍᴇɴᴜ ɴꜱꜰᴡ',
-    owner: 'ᴍᴇɴᴜ ᴏᴡɴᴇʀ',
     sticker: 'ᴍᴇɴᴜ ꜱᴛɪᴄᴋᴇʀ',
     tools: 'ᴍᴇɴᴜ ᴛᴏᴏʟꜱ',
 };
