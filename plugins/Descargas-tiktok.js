@@ -150,7 +150,6 @@ handler.help = ['tiktok'].map((v) => v + ' *<link>*');
 handler.tags = ['descargas'];
 handler.command = ['tt'];
 handler.group = false;
-handler.register = true;
 
 export default handler;
 
